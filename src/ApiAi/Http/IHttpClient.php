@@ -4,5 +4,5 @@ namespace ApiAi\Http;
 
 interface IHttpClient
 {
-    public function send($url, $method, $body, array $headers = []);
+    public function send($url, $body, $method = 'get', array $headers = []);
 }
