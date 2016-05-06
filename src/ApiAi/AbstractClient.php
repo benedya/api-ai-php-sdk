@@ -13,5 +13,5 @@ abstract class AbstractClient
         $this->apiUrl = $url;
     }
 
-    public abstract function query($q, $v, $confidence, $sessionId, $lang);
+    public abstract function query($endpoint, $parameters);
 }
