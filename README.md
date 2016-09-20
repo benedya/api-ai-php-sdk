@@ -1,4 +1,7 @@
-## This is the simplest php-wrapper for api.ai
+## This is simple, unofficial php-wrapper for api.ai
+
+## Install
+`composer require benedya/api-ai-php-sdk`
 
 ## How to use
 ```php
